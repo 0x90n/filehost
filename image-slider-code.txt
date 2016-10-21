@@ -1,0 +1,57 @@
+// For Stylesheets Section //
+
+Lean Slider
+
+<link rel="stylesheet" href="https://your-URL-path/lean-slider/lean-slider.css" type="text/css" />
+<link rel="stylesheet" href="https://your-URL-path/lean-slider/demo/sample-styles.css" type="text/css" />
+
+
+// For Javascript Section //
+
+Lean Slider (placement: Head)
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script src="https://your-URL-path/lean-slider/demo/scripts/modernizr-2.6.1.min.js"></script>
+<script src="https://your-URL-path/lean-slider/lean-slider.js"></script>
+
+Lean Slider Jquery (placement: Before Body End Tag)
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        var slider = $('#slider').leanSlider({
+            directionNav: '#slider-direction-nav',
+            controlNav: '#slider-control-nav'
+        });
+    });
+</script>
+
+
+// HTML Code //
+
+ <div class="slider-wrapper">
+        <div id="slider">
+            <div class="slide1">
+                <img src="https://your-URL-path/lean-slider/demo/images/1.jpg" alt="" />
+            </div>
+            <div class="slide2">
+                <img src="https://your-URL-path/lean-slider/demo/images/2.jpg" alt="" />
+            </div>
+            <div class="slide3">
+                <img src="https://your-URL-path/lean-slider/demo/images/3.jpg" alt="" />
+            </div>
+            <div class="slide4">
+                <img src="https://your-URL-path/lean-slider/demo/images/4.jpg" alt="" />
+            </div>
+                      <div class="slide5">
+                <img src="https://your-URL-path/lean-slider/demo/images/5.jpg" alt="" />
+            </div>
+            <div class="slide6">
+                <img src="https://your-URL-path/lean-slider/demo/images/6.jpg" alt="" />
+            </div>
+            <div class="slide7">
+                <img src="https://your-URL-path/lean-slider/demo/images/7.jpg" alt="" />
+            </div>
+        </div>
+        <div id="slider-direction-nav"></div>
+        <div id="slider-control-nav"></div>
+    </div>
