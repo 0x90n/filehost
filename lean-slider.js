@@ -1,19 +1,10 @@
-/*
- * Lean Slider v1.0
- * http://dev7studios.com/lean-slider
- *
- * Copyright 2012, Dev7studios
- * Free to use and abuse under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- */
-
 ;(function($) {
 
     $.fn.leanSlider = function(options) {
     
         // Defaults
         var defaults = {
-            pauseTime: 4000,
+            pauseTime: 2000,
             pauseOnHover: true,
             startSlide: 0,
             directionNav: '',
